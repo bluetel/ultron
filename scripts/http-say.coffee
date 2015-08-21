@@ -1,7 +1,7 @@
 module.exports = (robot) ->
-  robot.router.post "/v1/say", (req, res) ->
+  robot.router.put "/v1/say/:room", (req, res) ->
     body = req.body
-    room = body.room
+    room = req.params.room
     message = body.message
 
     robot.logger.info "Message '#{message}' received for room #{room}"
