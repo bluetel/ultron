@@ -7,6 +7,7 @@
   "dependencies": {
     "hubot": "^2.12.0",
     "hubot-auth": "^1.2.0",
+    "hubot-bitbucket-pr": "^0.2.0",
     "hubot-cron": "^0.2.9",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.4",

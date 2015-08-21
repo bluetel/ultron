@@ -1,5 +1,6 @@
 [
   "hubot-auth",
+  "hubot-bitbucket-pr",
   "hubot-cron",
   "hubot-help",
   "hubot-heroku-keepalive",
