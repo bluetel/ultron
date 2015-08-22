@@ -1,9 +1,14 @@
 {
   "name": "ultron",
-  "version": "0.0.0",
+
+  "version": "1.0.0",
+
   "private": true,
+
   "author": "Alex Wilson <ajw@bluetel.co.uk>",
+
   "description": "Make me a tea",
+
   "dependencies": {
     "hubot": "^2.12.0",
     "hubot-auth": "^1.2.0",
@@ -28,6 +33,18 @@
     "time": "^0.11.3",
     "whatsforlunch": "0.0.1"
   },
+
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+
   "engines": {
     "node": "0.10.x"
   }
