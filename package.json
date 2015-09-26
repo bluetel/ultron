@@ -30,9 +30,10 @@
     "whatsforlunch": "0.0.1"
   },
   "devDependencies": {
-    "coffee-script": "*",
-    "coffeelint": "*",
+    "babel-eslint": "*",
     "chai": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "0.0.9",
     "mocha": "*",
     "sinon": "*",
     "sinon-chai": "*"
@@ -45,7 +46,8 @@
     "url": "https://github.com/bluetel-solutions/ultron/issues"
   },
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register && coffeelint ./scripts/",
+    "lint": "eslint .",
+    "test": "mocha --reporter spec --compilers js:babel/register && npm run-script lint",
     "start": "hubot -a slack",
     "start-local": "hubot"
   },
