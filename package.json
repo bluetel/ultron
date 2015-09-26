@@ -1,9 +1,9 @@
 {
-  "name": "ultron",
+  "name": "bluetel-ultron",
   "version": "1.0.0",
   "private": true,
   "author": "Alex Wilson <ajw@bluetel.co.uk>",
-  "description": "Make me a tea",
+  "description": "Bluetel Solutions Slack bot",
   "dependencies": {
     "hubot": "^2.12.0",
     "hubot-auth": "^1.2.0",
@@ -36,8 +36,21 @@
     "sinon": "*",
     "sinon-chai": "*"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluetel-solutions/ultron"
+  },
+  "bugs": {
+    "url": "https://github.com/bluetel-solutions/ultron/issues"
+  },
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register && ./node_modules/coffeelint/bin/coffeelint ./scripts/"
+    "test": "mocha --compilers coffee:coffee-script/register && coffeelint ./scripts/",
+    "start": "hubot -a slack",
+    "start-local": "hubot"
+  },
+  "license": "MIT",
+  "bin": {
+    "hubot": "./bin/hubot"
   },
   "engines": {
     "node": "0.10.x"
