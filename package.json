@@ -48,12 +48,12 @@
   "scripts": {
     "lint": "eslint .",
     "test": "mocha --reporter spec --compilers js:babel/register && npm run-script lint",
-    "start": "hubot -a slack",
-    "start-local": "hubot"
+    "start": "./bin/ultron -a slack",
+    "start-local": "./bin/ultron"
   },
   "license": "MIT",
   "bin": {
-    "hubot": "./bin/hubot"
+    "ultron": "./bin/ultron"
   },
   "engines": {
     "node": "0.10.x"
