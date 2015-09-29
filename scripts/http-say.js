@@ -1,8 +1,8 @@
 module.exports = (robot) => {
   return robot.router.put('/v1/say/:room', (req, res) => {
-    const body     = req.body;
-    const room     = req.params.room;
-    const message  = body.message;
+    const body = req.body;
+    const room = req.params.room;
+    const message = body.message;
     const envelope = robot.brain.userForId('broadcast');
 
     robot.logger.info(`Message '${message}' received for room ${room}`);

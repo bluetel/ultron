@@ -33,7 +33,7 @@
   "devDependencies": {
     "babel-eslint": "*",
     "eslint": "*",
-    "eslint-config-airbnb": "0.0.9",
+    "eslint-config-airbnb": "0.1.0",
     "chai": "3.3.0",
     "mocha": "2.3.3",
     "sinon": "1.17.1",
