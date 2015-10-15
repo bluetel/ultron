@@ -42,10 +42,10 @@ Then you can interact with ultron by typing `ultron help`.
 
 After making your desired changes, you can check to see that your syntax is correct by running:
 
-    npm run-script lint
+    % npm run-script lint
 
 If all is well, this will pass with a green tick ✔.  If not, then the linter will explain exactly what is wrong, by line number and column.
 Should all go well, you may then run the testing suite, which is what is run by Travis CI:
 
-    npm test
+    % npm test
 
