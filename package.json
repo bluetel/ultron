@@ -34,7 +34,7 @@
     "babel-eslint": "*",
     "eslint": "1.7.1",
     "eslint-config-airbnb": "0.1.0",
-    "chai": "3.3.0",
+    "chai": "3.4.0",
     "mocha": "2.3.3",
     "sinon": "1.17.1",
     "sinon-chai": "2.8.0"
