@@ -8,6 +8,7 @@
     "babel": "^5.8.23",
     "babel-hubot": "^0.1.0",
     "coffee-script": "^1.10.0",
+    "express": "^3.18.2",
     "hubot": "2.16.0",
     "hubot-auth": "1.2.0",
     "hubot-bitbucket-pr": "0.2.0",
@@ -27,6 +28,9 @@
     "hubot-shipit": "0.2.0",
     "hubot-slack": "3.4.0",
     "hubot-youtube": "1.0.1",
+    "request": "^2.40.0",
+    "serve-index": "^1.6.3",
+    "serve-static": "^1.8.0",
     "time": "0.11.4",
     "whatsforlunch": "0.0.1"
   },
@@ -37,7 +41,8 @@
     "chai": "3.4.0",
     "mocha": "2.3.3",
     "sinon": "1.17.2",
-    "sinon-chai": "2.8.0"
+    "sinon-chai": "2.8.0",
+    "snyk": "^0.6.0"
   },
   "repository": {
     "type": "git",
@@ -48,7 +53,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha --reporter spec --compilers js:babel/register && npm run-script lint",
+    "test": "mocha --reporter spec --compilers js:babel/register && npm run-script lint && snyk test",
     "start": "./bin/ultron -a slack",
     "start-local": "./bin/ultron"
   },
