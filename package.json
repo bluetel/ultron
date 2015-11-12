@@ -48,7 +48,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha --reporter spec --compilers js:babel/register && npm run-script lint",
+    "test": "mocha --reporter spec --compilers js:babel-core/register && npm run-script lint",
     "start": "./bin/ultron -a slack",
     "start-local": "./bin/ultron"
   },
