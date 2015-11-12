@@ -6,6 +6,7 @@
   "description": "Bluetel Solutions Slack bot",
   "dependencies": {
     "babel": "^6.1.5",
+    "babel-core": "^6.1.4",
     "babel-hubot": "^0.2.0",
     "coffee-script": "^1.10.0",
     "hubot": "2.16.0",
