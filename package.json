@@ -5,7 +5,7 @@
   "author": "Alex Wilson <ajw@bluetel.co.uk>",
   "description": "Bluetel Solutions Slack bot",
   "dependencies": {
-    "babel": "^6.1.5",
+    "babel": "^6.1.18",
     "babel-core": "^6.1.4",
     "babel-hubot": "^0.2.0",
     "coffee-script": "^1.10.0",
