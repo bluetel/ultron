@@ -19,7 +19,7 @@
     "hubot-google-images": "0.2.5",
     "hubot-google-translate": "0.2.0",
     "hubot-help": "0.1.2",
-    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-heroku-keepalive": "1.0.0",
     "hubot-javascript": "0.0.7",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "0.1.0",
