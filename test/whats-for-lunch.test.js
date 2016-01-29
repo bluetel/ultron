@@ -1,14 +1,16 @@
-const chai = require('chai');
+import chai from 'chai';
+import sinonChai from 'sinon-chai';
 const expect = chai.expect;
-const robot = require('./util/mockbot.js');
+chai.use(sinonChai);
 
-chai.use(require('sinon-chai'));
+import robot from './util/mockbot.js';
+import whatsforlunch from '../scripts/whatsforlunch';
 
 describe('whats-for-lunch', () => {
-  beforeEach(() => {
-    return require('../scripts/whatsforlunch')(robot);
-  });
-  return it('registers a hear listener', () => {
-    return expect(robot.hear).to.have.been.calledWith(/what('|’|)s for lunch/i);
-  });
+  beforeEach(() => (
+    whatsforlunch(robot)
+  ));
+  it('registers a hear listener', () => (
+    expect(robot.hear).to.have.been.calledWith(/what('|’|)s for lunch/i)
+  ));
 });

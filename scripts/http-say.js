@@ -1,5 +1,5 @@
-module.exports = (robot) => {
-  return robot.router.put('/v1/say/:room', (req, res) => {
+module.exports = (robot) => (
+  robot.router.put('/v1/say/:room', (req, res) => {
     const body = req.body;
     const room = req.params.room;
     const message = body.message;
@@ -20,5 +20,5 @@ module.exports = (robot) => {
       'Content-Type': 'text/plain',
     });
     return res.end('OK\n');
-  });
-};
+  })
+);
