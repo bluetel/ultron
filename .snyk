@@ -1,2 +1,33 @@
 ignore: {}
-patch: {}
+patch:
+  'npm:qs:20140806':
+    - whatsforlunch > google-spreadsheet > request > qs:
+        patched: '2016-05-11T23:14:36.949Z'
+  'npm:qs:20140806-1':
+    - whatsforlunch > google-spreadsheet > request > qs:
+        patched: '2016-05-11T23:14:36.949Z'
+  'npm:request:20160119':
+    - google-auth-library > request:
+        reason: None given
+        expires: '2016-06-10T22:59:39.104Z'
+      whatsforlunch > google-spreadsheet > request:
+        patched: '2016-05-11T23:14:36.949Z'
+    - google-spreadsheet > google-auth-library > request:
+        reason: None given
+        expires: '2016-06-10T22:59:39.104Z'
+    - whatsforlunch > google-spreadsheet > google-auth-library > request:
+        reason: None given
+        expires: '2016-06-10T22:59:39.104Z'
+    - whatsforlunch > google-spreadsheet > request:
+        reason: None given
+        expires: '2016-06-10T22:59:39.105Z'
+  'npm:ws:20160104':
+    - hubot-slack > slack-client > ws:
+        reason: None given
+        expires: '2016-06-10T22:59:39.105Z'
+        patched: '2016-05-11T23:14:36.949Z'
+  'npm:hawk:20160119':
+    - whatsforlunch > google-spreadsheet > request > hawk:
+        reason: None given
+        expires: '2016-06-10T22:59:39.106Z'
+version: v1
