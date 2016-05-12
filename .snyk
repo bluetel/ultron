@@ -10,22 +10,29 @@ patch:
     - google-auth-library > request:
         reason: None given
         expires: '2016-06-10T22:59:39.104Z'
-      whatsforlunch > google-spreadsheet > request:
-        patched: '2016-05-11T23:14:36.949Z'
+      whatsforlunch > google-spreadsheet > google-auth-library > request:
+        patched: '2016-05-12T12:17:34.411Z'
     - google-spreadsheet > google-auth-library > request:
         reason: None given
         expires: '2016-06-10T22:59:39.104Z'
+      google-auth-library > request:
+        patched: '2016-05-12T12:17:34.411Z'
     - whatsforlunch > google-spreadsheet > google-auth-library > request:
         reason: None given
         expires: '2016-06-10T22:59:39.104Z'
+      google-spreadsheet > google-auth-library > request:
+        patched: '2016-05-12T12:17:34.411Z'
     - whatsforlunch > google-spreadsheet > request:
         reason: None given
         expires: '2016-06-10T22:59:39.105Z'
+        patched: '2016-05-12T12:17:34.411Z'
+    - whatsforlunch > google-spreadsheet > request:
+        patched: '2016-05-11T23:14:36.949Z'
   'npm:ws:20160104':
     - hubot-slack > slack-client > ws:
         reason: None given
         expires: '2016-06-10T22:59:39.105Z'
-        patched: '2016-05-11T23:14:36.949Z'
+        patched: '2016-05-12T12:17:34.411Z'
   'npm:hawk:20160119':
     - whatsforlunch > google-spreadsheet > request > hawk:
         reason: None given
