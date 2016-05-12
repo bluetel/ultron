@@ -13,7 +13,6 @@
     "coffee-script": "^1.10.0",
     "connect": "^3.4.1",
     "express": "^4.13.4",
-    "fsevents": "^1.0.12",
     "google-auth-library": "^0.9.8",
     "google-spreadsheet": "^2.0.3",
     "gtoken": "^1.2.0",
@@ -46,6 +45,9 @@
     "time": "0.11.4",
     "whatsforlunch": "0.0.1",
     "ws": "^1.1.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^1.0.12"
   },
   "devDependencies": {
     "babel-eslint": "*",
