@@ -12,3 +12,16 @@ patch:
     - hubot-slack > slack-client > ws:
         patched: '2016-05-13T21:13:33.969Z'
 version: v1
+ignore:
+  'npm:hawk:20160119':
+    - whatsforlunch > google-spreadsheet > request > hawk:
+        reason: Fixing build
+        expires: '2016-06-12T21:51:41.326Z'
+  'npm:qs:20140806-1':
+    - whatsforlunch > google-spreadsheet > request > qs:
+        reason: Fixing build
+        expires: '2016-06-12T21:52:56.831Z'
+  'npm:qs:20140806':
+    - whatsforlunch > google-spreadsheet > request > qs:
+        reason: Fixing build
+        expires: '2016-06-12T21:52:56.831Z'
