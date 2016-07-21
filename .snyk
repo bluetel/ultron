@@ -1,0 +1,56 @@
+patch:
+  'npm:request:20160119':
+    - whatsforlunch > google-spreadsheet > google-auth-library > request:
+        patched: '2016-07-21T00:21:59.659Z'
+    - google-auth-library > request:
+        patched: '2016-07-21T00:21:59.659Z'
+    - google-spreadsheet > google-auth-library > request:
+        patched: '2016-07-21T00:21:59.659Z'
+    - whatsforlunch > google-spreadsheet > request:
+        patched: '2016-07-21T00:21:59.659Z'
+  'npm:ws:20160104':
+    - hubot-slack > slack-client > ws:
+        patched: '2016-05-13T21:13:33.969Z'
+  'npm:minimatch:20160620':
+    - babel-preset-es2015 > babel-plugin-transform-regenerator > babel-core > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - mocha > glob > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - fsevents > node-pre-gyp > tar > fstream > rimraf > glob > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - fsevents > node-pre-gyp > tar-pack > fstream > rimraf > glob > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - fsevents > node-pre-gyp > tar-pack > fstream-ignore > fstream > rimraf > glob > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - fsevents > node-pre-gyp > tar-pack > rimraf > glob > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - fsevents > node-pre-gyp > tar-pack > tar > fstream > rimraf > glob > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - fsevents > node-pre-gyp > rimraf > glob > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - fsevents > node-pre-gyp > tar-pack > fstream-ignore > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+    - snyk > recursive-readdir > minimatch:
+        patched: '2016-07-21T00:21:59.659Z'
+  'npm:hawk:20160119':
+    - whatsforlunch > google-spreadsheet > request > hawk:
+        patched: '2016-07-21T00:21:59.659Z'
+  'npm:negotiator:20160616':
+    - hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-21T00:21:59.659Z'
+    - hubot > express > connect > compression > accepts > negotiator:
+        patched: '2016-07-21T00:21:59.659Z'
+version: v1.5.2
+ignore:
+  'npm:hawk:20160119':
+    - whatsforlunch > google-spreadsheet > request > hawk:
+        reason: Fixing build
+        expires: '2016-06-12T21:51:41.326Z'
+  'npm:qs:20140806-1':
+    - whatsforlunch > google-spreadsheet > request > qs:
+        reason: Fixing build
+        expires: '2016-06-12T21:52:56.831Z'
+  'npm:qs:20140806':
+    - whatsforlunch > google-spreadsheet > request > qs:
+        reason: Fixing build
+        expires: '2016-06-12T21:52:56.831Z'

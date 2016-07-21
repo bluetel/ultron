@@ -11,6 +11,6 @@ describe('coffee-time', () => {
     coffeeTime(robot)
   ));
   it('registers a hear listener', () => (
-    expect(robot.hear).to.have.been.calledWith(/\@([\w\.\-]+)/i)
+    expect(robot.hear).to.have.been.calledWith(/@([\w\.\-]+)/i)
   ));
 });
