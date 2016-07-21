@@ -6,13 +6,13 @@
   "description": "Bluetel Solutions Slack bot",
   "dependencies": {
     "babel": "^6.5.2",
-    "babel-core": "^6.8.0",
+    "babel-core": "^6.10.4",
     "babel-hubot": "^0.2.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "^6.6.0",
     "coffee-script": "^1.10.0",
     "connect": "^3.4.1",
-    "express": "^4.13.4",
+    "express": "^4.14.0",
     "google-auth-library": "^0.9.8",
     "google-spreadsheet": "^2.0.3",
     "gtoken": "^1.2.0",
@@ -34,17 +34,17 @@
     "hubot-rules": "0.1.1",
     "hubot-scripts": "2.17.1",
     "hubot-shipit": "0.2.0",
-    "hubot-slack": "4.0.1",
+    "hubot-slack": "^4.0.0",
     "hubot-youtube": "1.0.1",
     "moment": "^2.13.0",
     "node-uuid": "^1.4.7",
     "request": "^2.72.0",
-    "serve-index": "^1.7.3",
+    "serve-index": "^1.8.0",
     "serve-static": "^1.10.2",
     "snyk": "^1.14.3",
     "time": "0.11.4",
     "whatsforlunch": "0.0.1",
-    "ws": "^1.1.0"
+    "ws": "^1.1.1"
   },
   "optionalDependencies": {
     "fsevents": "^1.0.12"
