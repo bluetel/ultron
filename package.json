@@ -30,7 +30,7 @@
     "hubot-shipit": "0.2.0",
     "hubot-slack": "4.3.1",
     "hubot-youtube": "1.0.1",
-    "time": "0.11.4",
+    "time": "0.12.0",
     "whatsforlunch": "0.0.1"
   },
   "devDependencies": {
